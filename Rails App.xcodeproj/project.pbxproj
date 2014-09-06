@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E426A5A19B63EA7005D77B5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E426A5819B63EA7005D77B5 /* Model.xcdatamodeld */; };
 		8ECE2E0719B5F97700AD668E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE2E0619B5F97700AD668E /* AppDelegate.swift */; };
 		8ECE2E0919B5F97700AD668E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE2E0819B5F97700AD668E /* ViewController.swift */; };
 		8ECE2E0C19B5F97700AD668E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE2E0A19B5F97700AD668E /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E426A5919B63EA7005D77B5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		8ECE2E0119B5F97700AD668E /* Rails App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rails App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECE2E0519B5F97700AD668E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECE2E0619B5F97700AD668E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				8ECE2E0619B5F97700AD668E /* AppDelegate.swift */,
 				8ECE2E0819B5F97700AD668E /* ViewController.swift */,
 				8ECE2E0A19B5F97700AD668E /* Main.storyboard */,
+				8E426A5819B63EA7005D77B5 /* Model.xcdatamodeld */,
 				8ECE2E0D19B5F97700AD668E /* Images.xcassets */,
 				8ECE2E0419B5F97700AD668E /* Supporting Files */,
 			);
@@ -210,6 +213,7 @@
 			files = (
 				8ECE2E0919B5F97700AD668E /* ViewController.swift in Sources */,
 				8ECE2E0719B5F97700AD668E /* AppDelegate.swift in Sources */,
+				8E426A5A19B63EA7005D77B5 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +399,7 @@
 				8ECE2E1F19B5F97700AD668E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8ECE2E2019B5F97700AD668E /* Build configuration list for PBXNativeTarget "Rails AppTests" */ = {
 			isa = XCConfigurationList;
@@ -403,8 +408,22 @@
 				8ECE2E2219B5F97700AD668E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E426A5819B63EA7005D77B5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E426A5919B63EA7005D77B5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8E426A5919B63EA7005D77B5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8ECE2DF919B5F97700AD668E /* Project object */;
 }
